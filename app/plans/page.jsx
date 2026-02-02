@@ -1,6 +1,6 @@
 export default function Plans(){
  return <div>
-  <section className="text-center py-10">
+  <section className="text-center py-10 mt-20">
         <h2 className="text-3xl font-semibold">
           Plan <span className="text-[#4A7FA7]">what you want</span> with the
           ideal plan for you

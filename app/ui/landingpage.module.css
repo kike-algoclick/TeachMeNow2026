@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin-top: 80px;
 }
 
 
@@ -42,7 +43,7 @@
 }
 
 .logo h1 {
-  font-size: 2em;
+  font-size: 4em;
   font-weight: bold;
   color: #333;
 }
@@ -126,7 +127,7 @@
   object-fit: cover;
 }
 
-.card-body {
+.card_body {
   padding: 20px;
 }
 
@@ -136,13 +137,13 @@
   color: #333;
 }
 
-.card-body p {
+.card_body p {
   font-size: 1em;
   color: #666;
   line-height: 1.5;
 }
 
-.card-body button {
+.card_body button {
   display: block;
   width: 100%;
   padding: 10px;
@@ -155,12 +156,12 @@
   transition: background-color 0.3s ease;
 }
 
-.card-body button:hover {
+.card_body button:hover {
   background-color: #08345c;
 }
 
 @media (max-width: 768px) {
-  .main-content {
+  .main_content {
     flex-direction: column;
     align-items: center;
   }

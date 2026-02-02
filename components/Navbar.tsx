@@ -8,11 +8,11 @@ export default function Navbar(){
 
     return ( 
 
-    <div className="w-full z-100 fixed">
+    <nav className="w-full top-0 z-100 fixed">
        
-        <div className={clsx(styles.navbar ,styles.styling)}>
+        <div className={clsx(`${styles.navbar} ,${styles.styling} h-20`)}>
 
-             <div className={styles.Logo}>
+             <div className={styles.TeachMeNowLogo}>
                 <Image
                     width={190}
                     height={170}
@@ -48,6 +48,6 @@ export default function Navbar(){
 
         </div>
 
-    </div> 
+    </nav> 
     )
    }

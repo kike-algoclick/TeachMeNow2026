@@ -23,7 +23,7 @@ export default function Navbar(){
                 <Image
                     width={50}
                     height={50}
-                    src="/tmn-icon.png"
+                    src="/tmn_icon.png"
                     className="block md:hidden"
                     alt="Screenshots of the dashboard project showing desktop version"/>
             </div>

@@ -8,7 +8,7 @@ export default function Navbar(){
 
     return ( 
 
-    <div className="w-full fixed ">
+    <div className="w-full z-100 fixed">
        
         <div className={clsx(styles.navbar ,styles.styling)}>
 
@@ -31,13 +31,17 @@ export default function Navbar(){
 
             <nav className={styles.options}>
                 <ul>
+                    <a href="/">
                     <li>Home</li>
+                    </a>
                     <li>About Us</li>
+                    <a href="/plans">
                     <li>Explore Premium</li>
+                    </a>
                 </ul>
             </nav>
 
-            <div className="flex justify-center gap-5">
+            <div className="flex gap-5">
                 <button className={styles.sign}>Login</button>
                 <button className={styles.sign}>Sign Up</button>
             </div>
